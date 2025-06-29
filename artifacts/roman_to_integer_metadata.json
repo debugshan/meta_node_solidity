@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "Set_roman_map",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "rom",
+						"type": "string"
+					}
+				],
+				"name": "romanToInt",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidity-task/task1/roman-to-int.sol": "roman_to_integer"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidity-task/task1/roman-to-int.sol": {
+			"keccak256": "0x169c42695e8b16768fbba5a714e9f52b663b5beddc60aa19985c90136650e78d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1bfb6b03760865144799c421f9418973ea845d9830bcd58016b64ec7361f610f",
+				"dweb:/ipfs/Qmbyesctgp91ZtU3tNETfPtSC8sJj3ApmgcsYsJ36UsNr3"
+			]
+		}
+	},
+	"version": 1
+}

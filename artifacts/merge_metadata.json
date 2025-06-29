@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "arr",
+						"type": "uint256[]"
+					},
+					{
+						"internalType": "uint256[]",
+						"name": "brr",
+						"type": "uint256[]"
+					}
+				],
+				"name": "sum",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "result",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidity-task/task1/merge.sol": "merge"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidity-task/task1/merge.sol": {
+			"keccak256": "0xae5bd174bd10ff8f5c8c2a608942034b448ec07996ce8c305e648ea96e86df7e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f6f486ccbfbe62caa621063fc1e99adaebe4cf0dcb50a94a2b06abbe8b08ce74",
+				"dweb:/ipfs/QmbL9a5kGCq2AiQQ3uJYgXBcBCgnUnT93EG1ebpEVSRLfT"
+			]
+		}
+	},
+	"version": 1
+}
