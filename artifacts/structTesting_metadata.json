@@ -1,0 +1,112 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint8",
+								"name": "age",
+								"type": "uint8"
+							},
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"components": [
+									{
+										"internalType": "string",
+										"name": "label",
+										"type": "string"
+									},
+									{
+										"internalType": "string",
+										"name": "value",
+										"type": "string"
+									}
+								],
+								"internalType": "struct structTesting.Hubbio[]",
+								"name": "hs",
+								"type": "tuple[]"
+							}
+						],
+						"internalType": "struct structTesting.Person",
+						"name": "p",
+						"type": "tuple"
+					}
+				],
+				"name": "addPerson",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "peoples",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "age",
+						"type": "uint8"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"structTest.sol": "structTesting"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"structTest.sol": {
+			"keccak256": "0xbd66720a007c929b65bb138c9750f66d7f7b7c41bf9a191719d71095102a5991",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4eb84fec314e708f62dfbc49ee92c93f4729673cba77a0144c3a0110d6f5b9be",
+				"dweb:/ipfs/QmcspAWKKodmnYwzj9ZnmZJebsygFqRxbfybjxNtYkKxU5"
+			]
+		}
+	},
+	"version": 1
+}
